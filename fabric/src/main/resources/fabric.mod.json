@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tiab",
+  "version": "${version}",
+  "name": "Time In A Bottle",
+  "description": "This item allows you to accelerate the rate at which blocks tick.\nIt passively collects time while in your inventory which you can consume by right clicking a block with it.\nThe first click requires 30 Seconds, the second 60, the third 120 the fourth 240 and the fifth 480.\nThe speed at which the block ticks doubles with each click. The effect lasts 30 seconds.\n\nOriginal by Random Things Mod (Owner: Lumien231). This is ported standalone version to 1.18.",
+  "authors": [ "haoict" ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/tiab/tiab-logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.haoict.tiab.fabric.TiabFabric"
+    ],
+    "client": [
+      "com.haoict.tiab.fabric.TiabClientFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20",
+    "architectury": ">=9.1.12",
+    "forgeconfigapiport": ">=7.0.0"
+  }
+}
